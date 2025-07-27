@@ -1,131 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link>
-    <meta name="theme-color" content="#000000"/>
-    <style>
-        :root {
-            --background-color: #000000;
-            --text-color: #e0e0e0;
-            --link-bg-color: #1c1c1c;
-            --link-hover-bg-color: #333333;
-            --border-color: #333333;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link />
+        <meta name="theme-color" content="#000000" />
+        <style>
+      :root {
+        --background-color: #000000;
+        --text-color: #e0e0e0;
+        --link-bg-color: #1c1c1c;
+        --link-hover-bg-color: #333333;
+        --border-color: #333333;
+      }
 
-        body {
-            font-family: system-ui, sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 1rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
+      body {
+        font-family: system-ui, sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
 
-        .container {
-            max-width: 900px;
-            width: 100%;
-            text-align: center;
-        }
+      .container {
+        max-width: 900px;
+        width: 100%;
+        text-align: center;
+      }
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-        }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+      }
 
-        .link-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            justify-content: center;
-        }
+      .link-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+      }
 
-        .link {
-            background-color: var(--link-bg-color);
-            color: var(--text-color);
-            text-decoration: none;
-            padding: 1.5rem;
-            border-radius: 12px;
-            font-size: 1.1rem;
-            font-weight: 500;
-            display: block;
-            border: 1px solid var(--border-color);
-            transition: transform 0.2s ease, background-color 0.2s ease;
-        }
+      .link {
+        background-color: var(--link-bg-color);
+        color: var(--text-color);
+        text-decoration: none;
+        padding: 1.5rem;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        display: block;
+        border: 1px solid var(--border-color);
+        transition:
+          transform 0.2s ease,
+          background-color 0.2s ease;
+      }
 
-        .link:hover {
-            transform: translateY(-4px);
-            background-color: var(--link-hover-bg-color);
-        }
-
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h1>Home ⭐</h1>
-        <div class="link-grid">
-            <a href="https://forecast.weather.gov/MapClick.php?lat=40.09418000000005&lon=-76.41556499999996" class="link">Landisville Weather</a>
-            <a href="https://openrouter.ai/models?order=newest" class="link">OpenRouter models</a>
-            <a href="https://huggingface.co/models?library=gguf&sort=trending" class="link">Hugging Face GGUF</a>
-            <a href="https://www.latent.space/" class="link">latent.space</a>
-            <a href="https://towardsdatascience.com/" class="link">Towards Data Science</a>
-            <a href="https://www.marktechpost.com/" class="link">Marktechpost</a>
-            <a href="https://www.reddit.com/r/machinelearningnews/" class="link">Reddit ML News</a>
-            <a href="https://www.reddit.com/r/LocalLLaMA/hot/" class="link">Reddit LocalLLaMA</a>
-            <a href="https://kaitchup.substack.com/" class="link">Kaitchup</a>
-            <a href="https://magazine.sebastianraschka.com/" class="link">Sebastian Raschka</a>
-            <a href="https://importai.substack.com/" class="link">Import AI</a>
-            <a href="https://thesequence.substack.com/" class="link">The Sequence</a>
-            <a href="https://www.theneuron.ai/" class="link">The Neuron</a>
-            <a href="https://www.deeplearning.ai/the-batch/" class="link">The Batch</a>
-            <a href="https://mlops.community/blog/" class="link">MLops</a>
-            <a href="https://eugeneyan.com/writing/" class="link">Eugene Yan</a>
-            <a href="https://lilianweng.github.io/" class="link">Lilian Weng</a>
-            <a href="https://machinelearningmastery.com/blog/" class="link">Machine Learning Mastery</a>
-            <a href="https://www.evidentlyai.com/blog" class="link">Evidently AI</a>
-            <a href="https://huggingface.co/blog" class="link">Hugging Face</a>
-            <a href="https://codingwithintelligence.com/" class="link">Coding with Intelligence</a>
-            <a href="https://www.therundown.ai/" class="link">The Rundown</a>
-            <a href="https://criticalai.org/" class="link">Critical AI</a>
-            <a href="https://qwenlm.github.io/blog/" class="link">Qwen</a>
-            <a href="https://blog.google/technology/ai/" class="link">Google AI</a>
-            <a href="https://www.anthropic.com/news" class="link">Anthropic News</a>
-            <a href="https://openai.com/news/" class="link">OpenAI News</a>
-            <a href="https://developer.nvidia.com/blog/category/generative-ai/" class="link">Nvidia generative-ai</a>
-            <a href="https://developer.nvidia.com/blog/category/models/" class="link">Nvidia models</a>
-            <a href="https://modal.com/blog" class="link">Modal</a>
-            <a href="https://www.runpod.io/blog" class="link">Runpod</a>
-            <a href="https://www.together.ai/blog" class="link">Together</a>
-            <a href="https://www.cloudfactory.com/blog" class="link">Cloudfactory</a>
-            <a href="https://blog.eleuther.ai/" class="link">eleuther</a>
-            <a href="https://brief.montrealethics.ai/" class="link">Montreal Ethics</a>
-            <a href="https://galileo.ai/blog" class="link">Galileo</a>
-            <a href="https://thegradient.pub/" class="link">The Gradient</a>
-            <a href="https://every.to/chain-of-thought?sort=newest" class="link">Chain-of-thought</a>
-            <a href="https://www.hyperbolic.ai/blog" class="link">Hyperbolic</a>
-            <a href="https://bair.berkeley.edu/blog/" class="link">Berkeley Bair</a>
+      .link:hover {
+        transform: translateY(-4px);
+        background-color: var(--link-hover-bg-color);
+      }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Home
+                <img src="/home.svg" />
+            </h1>
+            <div class="link-grid">
+                <a href="https://forecast.weather.gov/MapClick.php?lat=40.09418000000005&lon=-76.41556499999996"
+                   class="link">Landisville Weather</a>
+                <a href="https://openrouter.ai/models?order=newest" class="link">OpenRouter models</a>
+                <a href="https://huggingface.co/models?library=gguf&sort=trending"
+                   class="link">Hugging Face GGUF</a>
+                <a href="https://ollama.com/search?o=newest" class="link">Ollama models</a>
+                <a href="https://www.latent.space/" class="link">latent.space</a>
+                <a href="https://towardsdatascience.com/" class="link">Towards Data Science</a>
+                <a href="https://www.marktechpost.com/" class="link">Marktechpost</a>
+                <a href="https://www.reddit.com/r/machinelearningnews/" class="link">Reddit ML News</a>
+                <a href="https://www.reddit.com/r/LocalLLaMA/hot/" class="link">Reddit LocalLLaMA</a>
+                <a href="https://kaitchup.substack.com/" class="link">Kaitchup</a>
+                <a href="https://magazine.sebastianraschka.com/" class="link">Sebastian Raschka</a>
+                <a href="https://importai.substack.com/" class="link">Import AI</a>
+                <a href="https://thesequence.substack.com/" class="link">The Sequence</a>
+                <a href="https://www.theneuron.ai/" class="link">The Neuron</a>
+                <a href="https://www.deeplearning.ai/the-batch/" class="link">The Batch</a>
+                <a href="https://mlops.community/blog/" class="link">MLops</a>
+                <a href="https://eugeneyan.com/writing/" class="link">Eugene Yan</a>
+                <a href="https://lilianweng.github.io/" class="link">Lilian Weng</a>
+                <a href="https://machinelearningmastery.com/blog/" class="link">Machine Learning Mastery</a>
+                <a href="https://www.evidentlyai.com/blog" class="link">Evidently AI</a>
+                <a href="https://huggingface.co/blog" class="link">Hugging Face</a>
+                <a href="https://codingwithintelligence.com/" class="link">Coding with Intelligence</a>
+                <a href="https://www.therundown.ai/" class="link">The Rundown</a>
+                <a href="https://criticalai.org/" class="link">Critical AI</a>
+                <a href="https://qwenlm.github.io/blog/" class="link">Qwen</a>
+                <a href="https://blog.google/technology/ai/" class="link">Google AI</a>
+                <a href="https://www.anthropic.com/news" class="link">Anthropic News</a>
+                <a href="https://openai.com/news/" class="link">OpenAI News</a>
+                <a href="https://developer.nvidia.com/blog/category/generative-ai/"
+                   class="link">Nvidia generative-ai</a>
+                <a href="https://developer.nvidia.com/blog/category/models/"
+                   class="link">Nvidia models</a>
+                <a href="https://modal.com/blog" class="link">Modal</a>
+                <a href="https://www.runpod.io/blog" class="link">Runpod</a>
+                <a href="https://www.together.ai/blog" class="link">Together</a>
+                <a href="https://www.cloudfactory.com/blog" class="link">Cloudfactory</a>
+                <a href="https://blog.eleuther.ai/" class="link">eleuther</a>
+                <a href="https://brief.montrealethics.ai/" class="link">Montreal Ethics</a>
+                <a href="https://galileo.ai/blog" class="link">Galileo</a>
+                <a href="https://thegradient.pub/" class="link">The Gradient</a>
+                <a href="https://every.to/chain-of-thought?sort=newest" class="link">Chain-of-thought</a>
+                <a href="https://www.hyperbolic.ai/blog" class="link">Hyperbolic</a>
+                <a href="https://bair.berkeley.edu/blog/" class="link">Berkeley Bair</a>
+            </div>
         </div>
-    </div>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
-                    .then(registration => {
-                        console.log('Service Worker registered with scope:', registration.scope);
-                    })
-                    .catch(error => {
-                        console.error('Service Worker registration failed:', error);
-                    });
-            });
-        }
-    </script>
-
-</body>
+        <script type="module" src="/register-sw.js"></script>
+    </body>
 </html>
