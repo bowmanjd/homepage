@@ -1,0 +1,12 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "workbox-cli": "^7.3.0",
+    "@types/bun": "latest"
+  },
+  "name": "homepage",
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

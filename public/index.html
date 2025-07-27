@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#000000"/>
+    <style>
+        :root {
+            --background-color: #000000;
+            --text-color: #e0e0e0;
+            --link-bg-color: #1c1c1c;
+            --link-hover-bg-color: #333333;
+            --border-color: #333333;
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .link-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .link {
+            background-color: var(--link-bg-color);
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            display: block;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .link:hover {
+            transform: translateY(-4px);
+            background-color: var(--link-hover-bg-color);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Home ⭐</h1>
+        <div class="link-grid">
+            <a href="https://www.latent.space/" class="link" target="_blank" rel="noopener noreferrer">latent.space</a>
+            <a href="https://towardsdatascience.com/" class="link" target="_blank" rel="noopener noreferrer">Towards Data Science</a>
+            <a href="https://www.marktechpost.com/" class="link" target="_blank" rel="noopener noreferrer">Marktechpost</a>
+            <a href="https://www.reddit.com/r/machinelearningnews/" class="link" target="_blank" rel="noopener noreferrer">Reddit ML News</a>
+            <a href="https://www.reddit.com/r/LocalLLaMA/hot/" class="link" target="_blank" rel="noopener noreferrer">Reddit LocalLLaMA</a>
+            <a href="https://kaitchup.substack.com/" class="link" target="_blank" rel="noopener noreferrer">Kaitchup</a>
+            <a href="https://magazine.sebastianraschka.com/" class="link" target="_blank" rel="noopener noreferrer">Sebastian Raschka</a>
+            <a href="https://importai.substack.com/" class="link" target="_blank" rel="noopener noreferrer">Import AI</a>
+            <a href="https://thesequence.substack.com/" class="link" target="_blank" rel="noopener noreferrer">The Sequence</a>
+            <a href="https://www.theneuron.ai/" class="link" target="_blank" rel="noopener noreferrer">The Neuron</a>
+            <a href="https://www.deeplearning.ai/the-batch/" class="link" target="_blank" rel="noopener noreferrer">The Batch</a>
+            <a href="https://mlops.community/blog/" class="link" target="_blank" rel="noopener noreferrer">MLops</a>
+            <a href="https://eugeneyan.com/writing/" class="link" target="_blank" rel="noopener noreferrer">Eugene Yan</a>
+            <a href="https://lilianweng.github.io/" class="link" target="_blank" rel="noopener noreferrer">Lilian Weng</a>
+            <a href="https://machinelearningmastery.com/blog/" class="link" target="_blank" rel="noopener noreferrer">Machine Learning Mastery</a>
+            <a href="https://www.evidentlyai.com/blog" class="link" target="_blank" rel="noopener noreferrer">Evidently AI</a>
+            <a href="https://huggingface.co/blog" class="link" target="_blank" rel="noopener noreferrer">Hugging Face</a>
+            <a href="https://codingwithintelligence.com/" class="link" target="_blank" rel="noopener noreferrer">Coding with Intelligence</a>
+            <a href="https://www.therundown.ai/" class="link" target="_blank" rel="noopener noreferrer">The Rundown</a>
+            <a href="https://criticalai.org/" class="link" target="_blank" rel="noopener noreferrer">Critical AI</a>
+            <a href="https://qwenlm.github.io/blog/" class="link" target="_blank" rel="noopener noreferrer">Qwen</a>
+            <a href="https://blog.google/technology/ai/" class="link" target="_blank" rel="noopener noreferrer">Google AI</a>
+            <a href="https://www.anthropic.com/news" class="link" target="_blank" rel="noopener noreferrer">Anthropic News</a>
+            <a href="https://openai.com/news/" class="link" target="_blank" rel="noopener noreferrer">OpenAI News</a>
+            <a href="https://developer.nvidia.com/blog/category/generative-ai/" class="link" target="_blank" rel="noopener noreferrer">Nvidia generative-ai</a>
+            <a href="https://developer.nvidia.com/blog/category/models/" class="link" target="_blank" rel="noopener noreferrer">Nvidia models</a>
+            <a href="https://modal.com/blog" class="link" target="_blank" rel="noopener noreferrer">Modal</a>
+            <a href="https://www.runpod.io/blog" class="link" target="_blank" rel="noopener noreferrer">Runpod</a>
+            <a href="https://www.together.ai/blog" class="link" target="_blank" rel="noopener noreferrer">Together</a>
+            <a href="https://www.cloudfactory.com/blog" class="link" target="_blank" rel="noopener noreferrer">Cloudfactory</a>
+            <a href="https://blog.eleuther.ai/" class="link" target="_blank" rel="noopener noreferrer">eleuther</a>
+            <a href="https://brief.montrealethics.ai/" class="link" target="_blank" rel="noopener noreferrer">Montreal Ethics</a>
+            <a href="https://galileo.ai/blog" class="link" target="_blank" rel="noopener noreferrer">Galileo</a>
+            <a href="https://thegradient.pub/" class="link" target="_blank" rel="noopener noreferrer">The Gradient</a>
+            <a href="https://every.to/chain-of-thought?sort=newest" class="link" target="_blank" rel="noopener noreferrer">Chain-of-thought</a>
+            <a href="https://www.hyperbolic.ai/blog" class="link" target="_blank" rel="noopener noreferrer">Hyperbolic</a>
+            <a href="https://bair.berkeley.edu/blog/" class="link" target="_blank" rel="noopener noreferrer">Berkeley Bair</a>
+        </div>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.error('Service Worker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+
+</body>
+</html>

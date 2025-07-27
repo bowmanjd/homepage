@@ -1,0 +1,16 @@
+{
+  "name": "Home",
+  "short_name": "Home",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Home is where your favorite links are.",
+  "icons": [
+    {
+      "src": "/home.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
